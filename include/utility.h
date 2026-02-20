@@ -4,6 +4,9 @@
  *
  */
 
+#ifndef UTILITY_H
+#define UTILITY_H
+
 #include "vector.h"
 #include "boid.h"
 
@@ -19,3 +22,5 @@ namespace Utility
 
     double angle_diff(double target, double source);
 };
+
+#endif
